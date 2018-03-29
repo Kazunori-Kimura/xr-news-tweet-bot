@@ -1,0 +1,21 @@
+{
+  "name": "vr-news-tweet-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "goo.gl": "^0.1.4",
+    "redis": "^2.8.0",
+    "twitter": "^1.7.1"
+  }
+}
