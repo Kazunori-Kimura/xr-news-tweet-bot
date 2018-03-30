@@ -12,11 +12,11 @@ const client = new Twitter({
 (async () => {
   try {
     const article = await Article.pop();
-    const message = await article.message();
-
-    const tweet = await client.post("statuses/update", { status: message });
-    console.log(tweet);
-    
+    if (article) {
+      const message = await article.message();
+      const tweet = await client.post("statuses/update", { status: message });
+      console.log(tweet);
+    }
     process.exit(0);
   } catch (err) {
     console.log(err);
