@@ -1,21 +1,36 @@
 {
   "name": "vr-news-tweet-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "VR情報をあつめてTwitterにポストするbot (のツイートする部分)",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["twitter", "bot"],
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
   "author": "kazunori.kimura.js@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "jest": "^22.4.3"
   },
   "dependencies": {
+    "bitly": "^5.0.12",
     "dotenv": "^5.0.1",
-    "goo.gl": "^0.1.4",
     "redis": "^2.8.0",
     "twitter": "^1.7.1"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazunori-Kimura/xr-news-tweet-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kazunori-Kimura/xr-news-tweet-bot/issues"
+  },
+  "homepage": "https://github.com/Kazunori-Kimura/xr-news-tweet-bot#readme"
 }

@@ -1,5 +1,7 @@
 const Article = require("../lib/Article");
 
+jest.spyOn(console, "log");
+
 describe("Article", () => {
   /**
    * @type {Article}
